@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samani Villa Ungasan - Eksklusivitas Hunian Bali</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Lato', sans-serif; overflow-x: hidden; }
+        h1, h2, h3, .logo-text { font-family: 'Playfair Display', serif; }
+        
+        .hero-bg {
+            background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhANwupNd_puN7FvTb0Hblu6wYqcpPdvxyDIKZIawfCsLc2R9209s6I3VZx9426wk3Li_Qs01nr7ROOA5qjU7p390508R6wGhbmPoJ33F_0gVZ9cNklHTvuey6a9XI4ULcWmqiJJv-mYHYUSnnxGXOLFbiWy98uYHnll_HuN5vtx-5e3b7751CAbCn-/s1600/SV-Ungasan%20Header.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .text-gold { color: #C5A059; }
+        .bg-gold { background-color: #C5A059; }
+        .bg-gold:hover { background-color: #AD8B45; }
+        .border-gold { border-color: #C5A059; }
+
+        /* Floating Animation untuk Button */
+        @keyframes floating {
+            0% { transform: translate(0, 0px); }
+            50% { transform: translate(0, 5px); }
+            100% { transform: translate(0, -0px); }
+        }
+        .float-btn { animation: floating 3s ease-in-out infinite; }
+    </style>
+</head>
+<body class="text-gray-800 bg-white">
+
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tight logo-text">
+                <span class="text-gray-900">SAMANI</span><span class="text-gold">VILLA</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#hero" class="hover:text-gold transition font-semibold">Home</a>
+                <a href="#about" class="hover:text-gold transition font-semibold">About</a>
+                <a href="#gallery" class="hover:text-gold transition font-semibold">Gallery</a>
+                <a href="#contact" class="hover:text-gold transition font-semibold">Contact</a>
+                <a href="https://niagaproperty.com/marketing/?reg=proeddie" target="_blank" target="_blank" class="border-2 border-gold text-gold px-5 py-1.5 rounded-sm hover:bg-gold hover:text-white transition font-bold uppercase text-xs tracking-widest">Joint Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-bg h-screen flex items-center justify-center text-center text-white pt-16">
+        <div class="px-4" data-aos="fade-up" data-aos-duration="1500">
+            <h1 class="text-5xl md:text-7xl mb-4 leading-tight">Samani Villa Ungasan</h1>
+            <p class="text-lg md:text-2xl mb-10 max-w-3xl mx-auto font-light italic">"Gerbang menuju kemewahan tropis dan investasi properti terbaik di jantung Ungasan, Bali."</p>
+            <a href="#contact" class="bg-gold text-white px-10 py-4 rounded-sm text-lg font-bold transition tracking-widest uppercase hover:shadow-2xl">Pelajari Lebih Lanjut</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-[#F9F6F0]">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-16">
+                <div class="md:w-1/2" data-aos="fade-right">
+                    <h2 class="text-4xl font-bold mb-8 text-gray-900">The Ultimate <br><span class="text-gold">Tropical Investment</span></h2>
+                    <p class="text-lg leading-relaxed mb-8 text-gray-600">Samani Villa Ungasan menghadirkan konsep hunian eksklusif dengan sentuhan arsitektur modern yang menyatu dengan alam Bali. Berlokasi di kawasan premium Ungasan, proyek ini menawarkan nilai investasi tinggi dengan kenaikan capital gain yang signifikan setiap tahunnya.
+					</p>
+					
+                    <div class="grid grid-cols-1 gap-4">
+                        <div class="flex items-center p-4 bg-white shadow-sm border-l-4 border-gold">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Lokasi Strategis</h4>
+                                <p class="text-sm text-gray-500">Hanya 5 menit menuju Pantai Melasti dan Pura Uluwatu.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center p-4 bg-white shadow-sm border-l-4 border-gold">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Desain Modern-Tropis:</h4>
+                                <p class="text-sm text-gray-500">Layout terbuka untuk sirkulasi udara dan cahaya alami maksimal.</p>
+                            </div>
+                        </div>
+						<div class="flex items-center p-4 bg-white shadow-sm border-l-4 border-gold">
+                            <div>
+                                <h4 class="font-bold text-gray-800">Fasilitas Privat:</h4>
+                                <p class="text-sm text-gray-500">Setiap unit dilengkapi dengan private pool dan taman asri.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 relative" data-aos="fade-left">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhANwupNd_puN7FvTb0Hblu6wYqcpPdvxyDIKZIawfCsLc2R9209s6I3VZx9426wk3Li_Qs01nr7ROOA5qjU7p390508R6wGhbmPoJ33F_0gVZ9cNklHTvuey6a9XI4ULcWmqiJJv-mYHYUSnnxGXOLFbiWy98uYHnll_HuN5vtx-5e3b7751CAbCn-/s1600/SV-Ungasan%20Header.webp?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Samani Villa" class="rounded-sm shadow-2xl relative z-10">
+                    <div class="absolute -bottom-6 -right-6 w-64 h-64 bg-gold/10 -z-0"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-24">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-16" data-aos="fade-up">Gallery Villa</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8" data-aos="zoom-in">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhguE8ouiOPzQupYfx5ueL4xREZPKBUkqyCdns2RQ8GR0cawkm61EYDDE3GqY21BB7VT_31mM26cdFVRreTA18xm62kJPFQmdZtmmtcHedboATodLfWS9UbqEc_rJDGwDx0jLK2Zwg0PgtMEMcXbjuN5f9pZsSicsMpiGXsB_zVMshnnygZigxK-4fT/s1600/SV-Exterior1.webp?auto=format&fit=crop&w=600&q=80" class="w-full h-72 object-cover hover:opacity-90 transition" alt="Exterior">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjm3Di2vdBdqvsEMsqWqJVONtjUj1n2TxmjgYSyQiRC-mlh8TOtyWkHumBcwrivxZHndhhFkRn4-9ZBOskel_tTIqaOZF3mVON82YJtbcy_4MEzqJPso8KjOUICrhSoQ870ZaJJ1UvRU19-xk3Dh2F2YH5BBbuswHAS5-RuoMdiYJD5KFJ9-Y21l3a/s1600/SV-Interior2.webp?auto=format&fit=crop&w=600&q=80" class="w-full h-72 object-cover hover:opacity-90 transition" alt="Interior">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYlfb9qNsSyVDhVWKrk4C-_qfH0Dj8k9sNd3zQ7yLe7wcyb8QaWFSKO3sm_ok05WEexGn1Wly4mJ9Z4NhLUKEDDJQKqnH9Do-r2mBy7QUZSKH9dIt2QFSAdhf0s0RY4DizHydivCQmuytYKORLWn3uDeQEXywkvJOC57yZSIM8k4Ggsyl4fHOVePQh/s1600/SV-Interior3.webp?auto=format&fit=crop&w=600&q=80" class="w-full h-72 object-cover hover:opacity-90 transition" alt="Pool">
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="bg-gray-100 h-200 flex flex-col items-center justify-center border">
+                    <span class="text-gold font-bold mb-2 uppercase tracking-widest text-xs">Project Siteplan</span>
+                    <p class="text-gray-400 italic text-sm"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaZb_OSszCfiJY_zKm62vBjCP9_-3uUd7xbi_ioJtuVFDcPJPxEEj_FrMMImJO_I024BR084-XUtLga4SO9ms-hbrC3uERGn52oafu1IO2w8NPt_xcI9zK3Ak-xqCSSMPya5Ia2sKNAaSf6XulDvTKiF7tdBnECN8srpU8bzeBLCc11oS3F5r-x928/s1600/SV-Siteplan-a.webp?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Site Plan"></p>
+                </div>
+                <div class="bg-gray-100 h-200 flex flex-col items-center justify-center border">
+                    <span class="text-gold font-bold mb-2 uppercase tracking-widest text-xs">Unit Floorplan</span>
+                    <p class="text-gray-400 italic text-sm"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsTmF_Sfylm5LdOdqdTuSSq-7rz1GTthM5KABZEDU5LIF-Aq89esdtMWScgAqcDRoVOYCsfyMqpAUET9cgjDyEQJ5EqQfTrrBLkQDyyireAuzbNH4tNH7RCNffqCDv2U-wfrFjXCL7ztSYIfC02GrOsf_alUXkmIjSfxs7iFSBnc6GQoEu4h2Q56Au/s1600/SV-Plan.web?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Floor Plan"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-[#1a1a1a] text-white overflow-hidden">
+        <div class="container mx-auto px-6 relative">
+            <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2" data-aos="fade-right">
+                    <h2 class="text-4xl font-bold mb-6 italic text-gold">Ready to Invest?</h2>
+                    <p class="text-gray-400 text-lg mb-4">Silahkan isi formulir untuk mendapatkan Brosur Digital, Price List terbaru, dan atur jadwal kunjungan ke lokasi.</p>
+                </div>
+                
+                <div class="md:w-1/2 w-full bg-white p-8 rounded-sm shadow-2xl text-gray-900" data-aos="flip-left">
+                    <form id="brochureForm" class="space-y-4">
+                        <input type="text" id="name" placeholder="Nama Lengkap" required class="w-full px-4 py-3 border-b-2 border-gray-100 focus:border-gold outline-none">
+                        <input type="tel" id="phone" placeholder="Nomor WhatsApp" required class="w-full px-4 py-3 border-b-2 border-gray-100 focus:border-gold outline-none">
+                        <input type="email" id="email" placeholder="Alamat Email" required class="w-full px-4 py-3 border-b-2 border-gray-100 focus:border-gold outline-none">
+                        <button type="submit" class="w-full bg-gold text-white font-bold py-4 rounded-sm hover:tracking-widest transition-all duration-500 uppercase">Download Brosur & Hubungi Kami</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="md:hidden fixed bottom-0 left-0 w-full grid grid-cols-2 z-50 shadow-2xl">
+        <a href="https://wa.me/6281234567890" class="bg-green-600 text-white py-4 flex items-center justify-center font-bold">
+            WhatsApp
+        </a>
+        <a href="#contact" class="bg-gold text-white py-4 flex items-center justify-center font-bold">
+            Brosur
+        </a>
+    </div>
+
+    <footer class="py-12 text-center text-gray-500 text-xs bg-[#111]">
+        <p>&copy; 2025 SAMANI VILLA UNGASAN - NIAGA PROPERTY.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(); // Inisialisasi Animasi
+
+        document.getElementById('brochureForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const email = document.getElementById('email').value;
+
+            // 1. Pesan WhatsApp Otomatis
+            const waNumber = "6285971103136"; // GANTI DENGAN NOMOR ANDA
+            const waMessage = `Halo Admin Samani Villa, saya ingin brosur digital.%0ANama: ${name}%0AEmail: ${email}%0ANo.HP: ${phone}`;
+            
+            // 2. Simulasi Download File
+            const downloadUrl = 'https://drive.google.com/file/d/1xV-c-LnMyGeUuiHxVK4cuvlUDp0HqeW4/view?usp=sharing';
+            const link = document.createElement('a');
+            link.href = downloadUrl;
+            link.download = 'Brosur-Samani-Villa.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            // 3. Arahkan ke WhatsApp setelah 1 detik
+            setTimeout(() => {
+                window.open(`https://wa.me/${waNumber}?text=${waMessage}`, '_blank');
+                alert("Terima kasih " + name + "! Brosur sedang diunduh dan Anda akan terhubung ke WhatsApp kami.");
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
